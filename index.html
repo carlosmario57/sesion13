@@ -1,52 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web - Sesión 13</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página Web Estática</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <header>
+    <h1>¡Hola! Soy Carlos Mario Fuentes</h1>
+    <img src="imagen1.jpg" alt="Foto de Carlos Mario" />
+  </header>
 
-    <header id="about-me">
-        <h1>¡Hola! Soy Carlos Mario</h1>
-        <p>Bienvenido a mi primera página web estática.</p>
-        <img src="imagen1.jpg" alt="Mi foto de perfil">
-    </header>
+  <section>
+    <h2>Mis pasatiempos favoritos</h2>
+    <ul>
+      <li>Leer sobre tecnología</li>
+      <li>Programar soluciones útiles</li>
+      <li>Escuchar vallenato</li>
+    </ul>
+  </section>
 
-    <section id="links">
-        <a href="#">Inicio</a>
-        <a href="#">Proyectos</a>
-        <a href="#">Contacto</a>
-    </section>
+  <section>
+    <h2>Lista de tareas del día</h2>
+    <ol>
+      <li>Organizar el parqueadero</li>
+      <li>Estudiar programación</li>
+      <li>Hacer los ejercicios del laboratorio</li>
+    </ol>
+  </section>
 
-    <section class="hobbies">
-        <h2>Mis Hobbies</h2>
-        <ul>
-            <li>Leer sobre tecnología</li>
-            <li>Programar en JavaScript</li>
-            <li>Escuchar vallenato</li>
-        </ul>
-    </section>
+  <section>
+    <h2>Mi horario semanal</h2>
+    <table>
+      <tr>
+        <th>Día</th>
+        <th>Actividad principal</th>
+      </tr>
+      <tr>
+        <td>Lunes</td>
+        <td>Atención al público</td>
+      </tr>
+      <tr>
+        <td>Martes</td>
+        <td>Estudios Talento Tech</td>
+      </tr>
+      <tr>
+        <td>Miércoles</td>
+        <td>Gestión del parqueadero</td>
+      </tr>
+    </table>
+  </section>
 
-    <section class="tasks">
-        <h2>Tareas del día</h2>
-        <ol>
-            <li>Practicar HTML</li>
-            <li>Estudiar CSS</li>
-            <li>Resolver ejercicios de JavaScript</li>
-        </ol>
-    </section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" />
 
-    <section class="contact-form">
-        <h2>Contáctame</h2>
-        <form>
-            <input type="text" placeholder="Tu nombre" required>
-            <input type="email" placeholder="Tu correo" required>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" />
 
-    <script src="script.js"></script>
+      <input type="submit" value="Enviar" />
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Carlos Mario Fuentes García</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
