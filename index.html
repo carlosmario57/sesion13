@@ -3,71 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primer Sitio Web</title>
+    <title>Mi Sitio Web - Sesión 13</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
 
-    <section id="about-me">
-        <h1>¡Hola, soy Carlos Mario Fuentes!</h1>
-        <p>Soy aprendiz de programación y tecnología en La Jagua de Ibirico, Cesar, Colombia.</p>
-        <img src="C:\Users\Carlos Fuentes\Documents\Talento Tech\Programacion\Sesion 13\mi-sitio-web\imagen1.jpg" alt="Foto de perfil">
-    </section>
+    <header id="about-me">
+        <h1>¡Hola! Soy Carlos Mario</h1>
+        <p>Bienvenido a mi primera página web estática.</p>
+        <img src="imagen1.jpg" alt="Mi foto de perfil">
+    </header>
 
     <section id="links">
-        <a href="https://github.com/" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
-        <a href="mailto:miemail@ejemplo.com">Correo</a>
+        <a href="#">Inicio</a>
+        <a href="#">Proyectos</a>
+        <a href="#">Contacto</a>
     </section>
 
     <section class="hobbies">
-        <h2>Mis hobbies</h2>
+        <h2>Mis Hobbies</h2>
         <ul>
             <li>Leer sobre tecnología</li>
-            <li>Escuchar vallenato romántico</li>
-            <li>Crear proyectos con HTML y Python</li>
+            <li>Programar en JavaScript</li>
+            <li>Escuchar vallenato</li>
         </ul>
     </section>
 
     <section class="tasks">
-        <h2>Mis tareas prioritarias</h2>
+        <h2>Tareas del día</h2>
         <ol>
-            <li>Finalizar el laboratorio de HTML</li>
-            <li>Aprender validación con JavaScript</li>
-            <li>Subir el proyecto a GitHub Pages</li>
+            <li>Practicar HTML</li>
+            <li>Estudiar CSS</li>
+            <li>Resolver ejercicios de JavaScript</li>
         </ol>
     </section>
 
-    <section class="schedule">
-        <h2>Mi horario semanal</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Día</th>
-                    <th>Actividad</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td>Lunes</td><td>Estudiar HTML</td></tr>
-                <tr><td>Martes</td><td>Practicar CSS</td></tr>
-                <tr><td>Miércoles</td><td>Validación en JS</td></tr>
-                <tr><td>Jueves</td><td>Proyecto en GitHub</td></tr>
-                <tr><td>Viernes</td><td>Revisión final</td></tr>
-            </tbody>
-        </table>
-    </section>
-
     <section class="contact-form">
-        <h2>Formulario de contacto</h2>
-        <form id="formulario-contacto">
-            <input type="text" id="nombre" placeholder="Tu nombre" required>
-            <input type="email" id="correo" placeholder="Correo electrónico" required>
-            <input type="text" id="motivo" placeholder="Motivo de contacto" required>
+        <h2>Contáctame</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
             <button type="submit">Enviar</button>
         </form>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
-
